@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.shopify.com/s/files/1/0042/4673/2846/products/OA-138_Dark_Wood_Grain_Board_DARKWOODGRAINBOARD_960x.jpg?v=1600380775);
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#blackKeys > button {
+  width:80px;
+  height:150px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0153/0623/products/Blackwood_Self-Adhesive_Wood_Grain_Contact_Wallpaper_by_Burke_Decor.jpg?v=1568667826);
+  background-color: black;
+  margin-top:5px;
+  margin-bottom:2px;
+}
+
+#whiteKeys > button {
+  width:80px;
+  height:250px;
+  background-image: url("https://www.neenahpaper.com/-/media/images/storefront/chips/classic-woodgrain-papers/classic-woodgrain-papers-solar-white-woodgrain.ashx");
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#whiteKeys > button:active, #whiteKeys > button.lit {
+    background:yellow;
+}
+
+#blackKeys > button:active, #blackKeys > button.lit {
+    background:yellow;
+}
+
+#button9 {
+  margin-left:44px;
+}
+
+#button11 {
+  margin-left:82px;
+}
